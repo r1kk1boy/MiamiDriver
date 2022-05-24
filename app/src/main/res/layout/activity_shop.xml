@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_shop"
+        tools:layout_editor_absoluteX="-66dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/pixeltext"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="shop"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="64sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/turismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/pixeltext"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="turismo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/super_tu" />
+
+    <TextView
+        android:id="@+id/turismo_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/pixeltext"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="equipped"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#9EEC23"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/turismo" />
+
+    <TextView
+        android:id="@+id/elegant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/pixeltext"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="elegant"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/super_el" />
+
+    <TextView
+        android:id="@+id/elegant_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/pixeltext"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="500$"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFD500"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elegant" />
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/pixeltext"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="money:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#7AEF3B"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shop" />
+
+    <ImageView
+        android:id="@+id/super_be"
+        android:layout_width="60dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/turismo_info"
+        app:srcCompat="@drawable/shop_beast" />
+
+    <ImageView
+        android:id="@+id/super_fu"
+        android:layout_width="60dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elegant_info"
+        app:srcCompat="@drawable/shop_furious" />
+
+    <TextView
+        android:id="@+id/furious"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/pixeltext"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="furious"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/super_fu" />
+
+    <TextView
+        android:id="@+id/furious_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/pixeltext"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="5000$"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFD500"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/furious" />
+
+    <TextView
+        android:id="@+id/beast"
+        android:fontFamily="@font/pixeltext"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="beast"
+        android:layout_marginStart="32dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/super_be" />
+
+    <TextView
+        android:id="@+id/beast_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/pixeltext"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="1000$"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFD500"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beast" />
+
+    <ImageView
+        android:id="@+id/super_tu"
+        android:layout_width="60dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/money"
+        app:srcCompat="@drawable/shop_turismo" />
+
+    <ImageView
+        android:id="@+id/super_el"
+        android:layout_width="60dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/money"
+        app:srcCompat="@drawable/shop_elegant" />
+
+    <TextView
+        android:id="@+id/back_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/pixeltext"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
